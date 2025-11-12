@@ -1,0 +1,34 @@
+# Python virtual environments
+.venv/
+.venv-gradio/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts and large files
+canid-skull-classifier/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Hugging Face credentials and caches
+.huggingface/
+hf_token
+
+# Editor and OS
+.vscode/
+.idea/
+.env
+.pytest_cache/
